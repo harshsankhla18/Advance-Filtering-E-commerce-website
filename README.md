@@ -2,7 +2,7 @@
 
 A fully responsive, filterable and animated shoe store built using **React.js**, featuring real-time search, category filtering, price-based filtering, and beautiful card hover effects. Easily deployed on **Netlify** with smooth user experience and dynamic design.
 
-# Link:https://advance-filtering-e-commerce.netlify.app/
+*Link:https://advance-filtering-e-commerce.netlify.app/*
 ---
 
 ## 📸 Preview
@@ -41,36 +41,38 @@ A fully responsive, filterable and animated shoe store built using **React.js**,
 
 ---
 ## 📁 Project Structure
+
+```txt
 src/
-│
 ├── Components/
-│ ├── Button.jsx
-│ ├── Card.jsx
-│ └── Input.jsx
+│   ├── Button.jsx
+│   ├── Card.jsx
+│   └── Input.jsx
 │
 ├── Db/
-│ └── data.js # Product data source
+│   └── data.js              # Product data source
 │
 ├── Navigation/
-│ ├── Sidebar/
-│ │ ├── category/
-│ │ │ └── Category.jsx
-│ │ ├── color/
-│ │ │ └── Color.jsx
-│ │ ├── price/
-│ │ │ └── Price.jsx
-│ │ ├── Sidebar.css
-│ │ └── Sidebar.jsx
-│ ├── Nav.css
-│ └── Nav.jsx
+│   ├── Sidebar/
+│   │   ├── category/
+│   │   │   └── Category.jsx
+│   │   ├── color/
+│   │   │   └── Color.jsx
+│   │   ├── price/
+│   │   │   └── Price.jsx
+│   │   ├── Sidebar.css
+│   │   └── Sidebar.jsx
+│   ├── Nav.css
+│   └── Nav.jsx
 │
 ├── Product/
-│ ├── Product.css
-│ └── Product.jsx
+│   ├── Product.css
+│   └── Product.jsx
 │
-├── App.jsx # Main app logic
-├── index.css # Global styles
-└── main.jsx # Entry point
+├── App.jsx                 # Main app logic
+├── index.css              # Global styles
+└── main.jsx               # Entry point
+```
 
 ## 🛠️ Tech Stack
 
