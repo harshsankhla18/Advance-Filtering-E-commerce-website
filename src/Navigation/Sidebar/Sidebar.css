@@ -1,0 +1,97 @@
+*{
+    
+    padding:0rem;
+}
+.list-at{
+    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+    height:80vh;
+}
+.Offcanvas-class{
+    background-color: #F1DAC4;
+}
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 4vw;
+    margin-left: 4vw;
+    position: relative;
+    bottom:2px;
+    scale:0.9;
+}
+.sidebar-button{
+background-color: #CA054D;
+color: #FFFFFF;
+border:none;
+border-radius: 10px;
+font-size: smaller;
+padding: 10px;
+font-family: cursive;
+
+}
+
+.sidebar-button:hover{
+background-color: #40798C;
+}
+.colmn-at{
+    display:flexbox;
+    justify-content: center;
+    margin :1rem;
+}
+.title{
+    color:#d1d3d1;
+    font-family: cursive;
+    font-weight: 600;
+    background-image: linear-gradient(90deg,#CA054D,#ca3781);
+    width:100%;
+    padding:2%;
+    display: flex;
+    justify-content: center;
+     box-shadow: 0px 1vh 1.2vh 0px rgba(0, 0,0, 0.2), 0px 1.2vh 4vh 0px rgba(0,0,0,0.19);
+}
+.sidebar-label{
+     font-weight: 400;
+    font-family:cursive;
+    position: relative;
+    bottom: 2px;
+    scale:0.9;
+}
+   input[type='checkbox']:after {
+    cursor: pointer;
+       bottom: 0px;
+        width: 20px;
+        height: 20px;
+        border-radius: 15px;
+        top: -3px;
+        left: -2px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 0.5px solid black;
+    }
+
+    input[type='checkbox']:checked:after {
+        width: 20px;
+        height: 20px;
+        bottom:0px;
+        border-radius: 15px;
+        top: -3px;
+        left: -2px;
+        position: relative;
+         background-color: white;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 0.35rem solid #39a99a;
+    }
+.checkMark{
+    position:relative;
+    top:3px;
+}
+.clear{
+      margin-bottom: 4vw;
+      align-self: center;
+      margin-left: 8vw;
+}
